@@ -15,4 +15,10 @@
     <Content Include=".github\workflows\build.yml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="pwshk8s.psd1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
